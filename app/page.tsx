@@ -28,6 +28,15 @@ export default function AttendancePage() {
       .catch(err => console.error('Failed to load students:', err));
   }, []);
 
+  useEffect(() => {
+    if (students.length > 0) {
+      students.forEach(student => {
+        const img = new window.Image();
+        img.src = student.image;
+      });
+    }
+  }, [students]);
+
   const handleMarkAttendance = (status: 'Present' | 'Absent') => {
     const currentStudent = students[currentIndex];
     const newAttendance = { ...attendance, [currentStudent.reg]: status };
