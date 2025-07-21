@@ -106,6 +106,7 @@ export default function AttendancePage() {
         {/* Current student card */}
         {students[currentIndex] && (
           <StudentCard
+            key={students[currentIndex].reg}
             student={students[currentIndex]}
             onMark={handleMarkAttendance}
             currentIndex={currentIndex}
