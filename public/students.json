@@ -1,0 +1,27 @@
+[
+  {
+    "name": "BIBEKANANDA ROUTRAY",
+    "reg": "2302040001",
+    "image": "images/bibek.jpg"
+  },
+  {
+    "name": "TRISUL KUMAR PRADHAN",
+    "reg": "2302040002",
+    "image": "images/trisul.jpg"
+  },
+  {
+    "name": "DISHANT HOTA",
+    "reg": "2302040004",
+    "image": "images/dishant.jpg"
+  },
+  {
+    "name": "AYUSH KISHAN",
+    "reg": "2302040005",
+    "image": "images/ayush_k.jpg"
+  },
+  {
+    "name": "TANMAYA KUMAR DHAUNDIA",
+    "reg": "2302040006",
+    "image": "images/tanmay_d.jpg"
+  }
+]
